@@ -20,7 +20,7 @@
 
   backend:
     build:
-      context: ./backend
+      context: .
       dockerfile: Dockerfile
     container_name: spring-backend
     restart: unless-stopped
